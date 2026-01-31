@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Banking System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+    <h1>🏦 Secure Banking System</h1>
+
+    <div class="card">
+        <input type="text" id="name" placeholder="Account Holder Name">
+        <input type="number" id="amount" placeholder="Amount">
+        
+        <div class="buttons">
+            <button onclick="createAccount()">Create Account</button>
+            <button onclick="deposit()">Deposit</button>
+            <button onclick="withdraw()">Withdraw</button>
+            <button onclick="checkBalance()">Balance Enquiry</button>
+            <button class="exit" onclick="exitApp()">Exit</button>
+        </div>
+
+        <div class="output" id="output"></div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
